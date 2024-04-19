@@ -1,0 +1,26 @@
+Cách hoạt động của trang quản trị trên Node.js
+1. Cấu trúc chung:
+
+Giao diện: Sử dụng HTML, CSS, JavaScript để tạo giao diện người dùng với các chức năng quản lý như:
+
+Đăng nhập
+Quản lý tài khoản
+Quản lý sản phẩm
+Quản lý đơn hàng
+...
+Backend: Sử dụng Node.js để xử lý logic, kết nối với cơ sở dữ liệu và thực hiện các chức năng quản trị.
+
+Cơ sở dữ liệu: Lưu trữ dữ liệu của hệ thống như thông tin tài khoản, sản phẩm, đơn hàng,...
+
+2. Quá trình hoạt động:
+
+Đăng nhập:
+
+Người dùng nhập thông tin đăng nhập vào giao diện.
+Backend sử dụng Node.js để xác thực thông tin với cơ sở dữ liệu.
+Nếu đăng nhập thành công, hệ thống sẽ chuyển hướng đến trang quản trị.
+Thực hiện chức năng quản trị:
+
+Người dùng thao tác trên các chức năng quản lý như thêm, sửa, xóa dữ liệu.
+Backend xử lý các yêu cầu từ người dùng, kết nối với cơ sở dữ liệu để thực hiện thao tác tương ứng.
+Hệ thống phản hồi kết quả cho người dùng.
